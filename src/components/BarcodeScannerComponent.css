@@ -1,0 +1,15 @@
+#background-content {
+  background: transparent !important;
+  --background: transparent;
+}
+.scan-conten ion-content::part(scroll) {
+  padding: 15px;
+  background: transparent !important;
+  --background: transparent;
+}
+
+#background-content ion-content::part(scroll) {
+  padding: 15px;
+  background: transparent !important;
+  --background: transparent;
+}
